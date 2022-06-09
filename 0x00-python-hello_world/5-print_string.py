@@ -1,4 +1,3 @@
 #!/urs/bin/bash
 str = "Holberton School"
-print(str * 3)
-print(str[0:10])
+print(("{}\n{}").format(str*3, str[0:9])
