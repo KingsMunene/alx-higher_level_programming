@@ -6,5 +6,5 @@ def uppercase(str):
         if code >= 97 and code <= 122:
             code -= 32
         else:
-        print("{}".format(chr(code)), end="")
+    print("{}".format(chr(code)), end="")
 print()
